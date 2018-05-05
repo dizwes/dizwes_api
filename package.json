@@ -1,0 +1,21 @@
+{
+  "name": "dizwes_api",
+  "version": "1.0.0",
+  "description": "Users autentication and ToDo CRUD api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oliveira Wesley",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "4.13.9",
+    "nodemon": "^1.17.3",
+    "restify": "6.3.4"
+  },
+  "devDependencies": {
+    "@types/mongoose": "4.7.32",
+    "@types/restify": "5.0.6"
+  }
+}
