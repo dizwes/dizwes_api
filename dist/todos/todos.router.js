@@ -40,8 +40,8 @@ class UserTodoRouter extends model_router_1.ModelRouter {
         application.put('/todou-sers/:id', [this.validateId, this.replace]);
         application.patch('/todo-users/:id', [this.validateId, this.update]);
         application.del('/todo-users/:id', [this.validateId, this.delete]);
-        application.get('/todo-user/:id/todo', [this.validateId, this.findTodo]);
-        application.put('/todo-user/:id/todo', [this.validateId, this.replaceTodo]);
+        application.get('/todo-users/:id/todo', [this.validateId, this.findTodo]);
+        application.put('/todo-users/:id/todo', [this.validateId, this.replaceTodo]);
     }
 }
 exports.UsertodoRouter = new UserTodoRouter();
